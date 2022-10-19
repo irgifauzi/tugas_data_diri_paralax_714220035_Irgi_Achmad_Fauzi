@@ -1,0 +1,145 @@
+/*memberikan style keseluruhan*/
+
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 800px;
+	float: left;
+	font-family: 'Courier New',Courier,monospace;
+	color: chartreuse;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	/*agar nav selalu tampil*/
+	position: sticky;
+	position: -webkit -sticky;
+	top: 0;
+	background: black;
+	z-index: 1;
+	border-bottom: 1px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a {
+	color: royalblue;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+} 
+ 
+body{
+    margin: 0;
+    padding: 0;
+}    
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/arizona-night-desert-landscape-natural-wild-west-background-with-coyote-pack-silhouettes-run-through-cacti-rocks-cloudy-sky-with-full-moon-shining-game-scene-cartoon-vector-illustration_107791-8446.jpg?w=1380&t=st=1666171871~exp=1666172471~hmac=4cc65b8b85fcbe8ada9a102862176fe9c27834f9f403b506ce9fa271a29e15bc);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/tropical-landscape-with-sea-bay-night_107791-5364.jpg?w=1060&t=st=1666172443~exp=1666173043~hmac=9e9590d41e9196828eb272bef251e317e9c3895458859371e31b1043acd8681a);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/night-rustic-meadow-landscape-rural-field-river-dirt-road-dark-blue-starry-sky-with-full-moon-stars-reflecting-water-farmland-scenery-countryside-nature-cartoon-vector-background_107791-11063.jpg?w=1060&t=st=1666172325~exp=1666172925~hmac=46416f085cb3db29e29a73d06a775090ef539d1aa3c9409e28b5519f5c9e9900);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+    
+}  
+
+#box2 h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+	position: relative;
+	top: 100px;
+    left: 200px;
+}
+
+ .dd img{
+  width: 400px;
+  height: 400px;
+  margin: 150px;
+  position: relative;
+  bottom: -50px;
+  left: 250px;
+ }
+  img.html{
+  position: relative;
+  bottom: 10px;
+  left: -20px;
+
+}
+
+ img.css{
+ position: relative;
+ top: -720px;
+ left: 550px;   
+ }
+
+#box3 h1 {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
